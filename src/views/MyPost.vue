@@ -1,11 +1,15 @@
 <template>
   <div>
-    12
+    {{ $route.params.id }}
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HomeView'
+  name: 'MyPost'
 }
 </script>
+
+<style scoped>
+
+</style>
